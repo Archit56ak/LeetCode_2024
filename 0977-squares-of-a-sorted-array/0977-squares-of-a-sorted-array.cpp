@@ -4,10 +4,7 @@ public:
     {
         int n = nums.size();
         vector<int> ans(n,0);
-        for(int i=0;i<n;i++)
-        {
-            ans[i] = pow(nums[i],2);
-        }
+        transform(nums.begin(),nums.end(),ans.begin(),[](int n){return n*n;} );
         sort(ans.begin(),ans.end());
         return ans;
     }
