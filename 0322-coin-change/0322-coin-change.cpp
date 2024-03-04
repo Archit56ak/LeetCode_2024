@@ -1,6 +1,25 @@
 class Solution {
 public:
-    int solve(vector<int> &coins,int amount,vector<int> &dp)
+    //Using Recurrsion
+    int solveRec(vector<int> &coins,int amount)
+    {
+        if(amount == 0)
+            return 0;
+        if(amount<0)
+            return INT_MAX;
+        
+        int mini = INT_MAX;
+        for(int i=0;i<coins.size();i++)
+        {
+            int ans = solveRec(coins,amount-coins[i]);
+            if(ans!=INT_MAX)
+                mini = min(mini,1+ans);
+        }
+        return mini;
+    }
+    
+    //Using Memoisation
+    int solveMem(vector<int> &coins,int amount,vector<int> &dp)
     {
         if(amount==0)
             return 0;
@@ -13,7 +32,7 @@ public:
         int min_val = INT_MAX;
         for(int  i=0;i<coins.size();i++)
         {
-            int ans = solve(coins,amount-coins[i],dp);
+            int ans = solveRec(coins,amount-coins[i]);
             if(ans!=INT_MAX)
                 min_val = min(min_val,1+ans);
         }
@@ -41,12 +60,17 @@ public:
     }
     int coinChange(vector<int>& coins, int amount) 
     {
-        // int n = coins.size();    
-        // vector<int> dp(amount+1,-1);
-        // for(int i=0;i<n;i++)
-        // {
-        //     dp[coins[i]] = 1;
-        // }
+        //Recurrsion given TLE
+        //Memoisation:- RUntime Error
+// int n = coins.size();    
+//         vector<int> dp(amount+1,-1);
+//         for(int i=0;i<n;i++)
+//         {        
+//             dp[coins[i]] = 1;
+//         }
+//         int min_val = solveMem(coins,amount,dp);
+        
+        //Tabulation
         int min_val = solveTab(coins,amount);
         if(min_val == INT_MAX)
             return -1;
