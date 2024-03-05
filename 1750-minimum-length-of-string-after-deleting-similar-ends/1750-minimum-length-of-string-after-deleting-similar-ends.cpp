@@ -1,9 +1,8 @@
 class Solution {
 public:
     int minimumLength(string s) {
-    int n= s.length();
     int start = 0;
-    int end = n-1;
+    int end = s.length()-1;
         
        while(start<end && s[start] == s[end])
        {
