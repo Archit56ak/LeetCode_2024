@@ -21,7 +21,7 @@ public:
             len++;
             temp=temp->next;
         }
-        
+        //Calculate the middle node Index
         index = (len/2)+1;
         for(int i=1;i<index;i++)
         {
