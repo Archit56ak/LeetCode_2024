@@ -10,17 +10,17 @@
  */
 class Solution {
 public:
-    vector<int> ListToVector(ListNode *node)
-    {
-        vector<int> v;
-        while(node!=NULL)
-        {
-            int a = node->val;
-            v.push_back(a);
-            node = node->next;
-        }
-        return v;
-    }
+    // vector<int> ListToVector(ListNode *node)
+    // {
+    //     vector<int> v;
+    //     while(node!=NULL)
+    //     {
+    //         int a = node->val;
+    //         v.push_back(a);
+    //         node = node->next;
+    //     }
+    //     return v;
+    // }
     
     bool isPalindrome(ListNode* head) 
     {
