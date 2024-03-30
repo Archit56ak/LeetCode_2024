@@ -1,3 +1,9 @@
+/*
+Number of Subarray with K distinct elements  =
+  Number of Subarrays with atmost K distinct Elements 
+- Number of Subarrays with atmost (K-1) Distinct Elements
+*/
+
 class Solution {
 public:
     int subarraysWithKDistinct(vector<int>& nums, int k) 
