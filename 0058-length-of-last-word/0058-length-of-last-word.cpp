@@ -18,3 +18,21 @@ public:
         return ans;
     }
 };
+// class Solution {
+// public:
+//     int lengthOfLastWord(string s) {
+//         int len=0; 
+//         int i = 0;
+//         i = s.length()-1;
+//         if(i == 0) return s[i]==' ' ? 0 : 1;
+//         while(s[i]==' ' && i>=0)
+//         {
+//             i--;
+//         }
+//         while(s[i]!=' '&& (i--)>=0)
+//         {
+//             len++;           
+//         }
+//         return (len);
+//     }
+// };
