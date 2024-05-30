@@ -1,31 +1,18 @@
 class Solution {
 public:
-    int countTriplets(vector<int>& arr) 
-    {
+    int countTriplets(vector<int>& arr) {
+        int n = arr.size();
         int cnt = 0;
-        // if(arr.size()<2)
-        //     return 0;
-        
-        
-        for(int i=0;i<arr.size();i++)
+        for(int i=0;i<n;i++)
         {
-            for(int j=i+1;j<arr.size();j++)
+            int val = arr[i];
+            for(int k = i+1;k<n;k++)
             {
-                int a = 0;
-                for(int k=i;k<j;k++)
+                val^=arr[k];
+                if(val == 0)
                 {
-                    a^=arr[k];
+                    cnt+=(k-i);
                 }
-                
-                int b= 0;
-                for(int k=j;k<arr.size();k++)
-                {
-                    b^=arr[k];
-                    if(a==b)
-                    cnt++;
-                }
-                
-                
             }
         }
         return cnt;
