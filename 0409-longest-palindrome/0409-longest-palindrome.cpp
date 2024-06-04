@@ -2,54 +2,36 @@ class Solution {
 public:
     int longestPalindrome(string s) 
     {
-//         unordered_map<char,int> mpp;
-//         int ans = 0;
-//         for(char i : s)
-//         {
-//             mpp[i]++;
-//         }
-//         int max_odd = 0;
-        
-//         for(auto i : mpp)
-//         {
-            
-//             if(i.second%2==0)
-//             {
-//                 ans+=(i.second);
-//             }
-//             else if(i.second%2!=0)
-//             {
-//                 max_odd = max(max_odd,i.second);
-//             }
-//         }
-//         ans+=max_odd;
-//         return ans;
-            unordered_map<char, int> hm;
-        for (int i = 0; i < s.length(); i++) {
-            char c = s[i];
-            if (hm.find(c) != hm.end()) {
-                hm[c]++;
-            } else {
-                hm[c] = 1;
+        vector<int>lower(26,0);
+        vector<int>upper(26,0);
+        for(int i=0;i<s.size();i++){
+            if(s[i]>='a'){
+                lower[s[i]-'a']++;
             }
-        }
-
-        int ans = 0;
-        bool isFirstOdd = false;
-
-        for (auto& pair : hm) {
-            if (pair.second % 2 == 0) {
-                ans += pair.second;
-            } else {
-                ans += pair.second;
-                if (!isFirstOdd) {
-                    isFirstOdd = true;
-                } else {
-                    ans -= 1;
-                }
+            else{
+                upper[s[i]-'A']++;
             }
-        }
 
-        return ans;
+        }
+        int c=0;
+        int f=0;
+        for(int i=0;i<26;i++){
+            if(lower[i]%2==0){
+                c += lower[i];
+            }
+            else{
+                c += lower[i]-1;
+                f=1;
+            }
+            if(upper[i]%2==0){
+                c += upper[i];
+            }
+            else{
+                c += upper[i]-1;
+                f=1;
+            }
+
+        }
+        return c+f;
     }
 };
