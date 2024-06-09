@@ -9,14 +9,13 @@ public:
         for(int i = 0;i<n;i++)
         {
             sum+=nums[i];
-            int val = sum%k;
-            if(mpp.find(val)!=mpp.end())
+            if(mpp.find(sum%k)!=mpp.end())
             {
-                if(i-mpp[val]>=2)
+                if(i-mpp[sum%k]>=2)
                     return true;
             }
             else
-                mpp[val]=i;
+                mpp[sum%k]=i;
         }
         return false;
     }
