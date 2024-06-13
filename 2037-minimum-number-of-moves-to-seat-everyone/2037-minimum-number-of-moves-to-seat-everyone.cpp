@@ -8,7 +8,7 @@ public:
         
         for(int i=0 ;i<seats.size();i++)
         {
-            ans+=abs(seats[i]-students[i]);
+            ans+=abs(students[i]-seats[i]);
         }
         return ans;
     }
