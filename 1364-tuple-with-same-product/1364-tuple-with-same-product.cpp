@@ -1,34 +1,49 @@
 class Solution {
 public:
     int tupleSameProduct(vector<int>& nums) {
-        int numsLen = nums.size();
-        sort(nums.begin(),nums.end());
+        int numsLength = nums.size();
 
-        int totalTuples = 0;
-        for(int aIdx = 0; aIdx < numsLen ; aIdx++)
-        {
-            for(int bIdx = numsLen-1 ; bIdx >= aIdx ; bIdx--)
-            {
-                int product = nums[aIdx] * nums[bIdx];
-                unordered_set<int> possible_d_val;
+        vector<int> pairProducts;
 
-                for(int cIdx = aIdx + 1;cIdx < bIdx ; cIdx++)
-                {
-                    if(product%nums[cIdx] == 0)
-                    {
-                        int dVal = product / nums[cIdx];
+        int totalNumberOfTuples = 0;
 
-                        if (possible_d_val.find(dVal) != possible_d_val.end())
-                        {
-                            totalTuples +=8;
-                        }
-
-                        possible_d_val.insert(nums[cIdx]);
-                    }
-                }
+        // Iterate over nums to calculate all pairwise products
+        for (int firstIndex = 0; firstIndex < numsLength; firstIndex++) {
+            for (int secondIndex = firstIndex + 1; secondIndex < numsLength;
+                 secondIndex++) {
+                pairProducts.push_back(nums[firstIndex] * nums[secondIndex]);
             }
         }
 
-        return totalTuples;
+        sort(pairProducts.begin(), pairProducts.end());
+
+        int lastProductSeen = -1;
+        int sameProductCount = 0;
+
+        // Iterate over pairProducts to count how many times each product occurs
+        for (int productIndex = 0; productIndex < pairProducts.size();
+             productIndex++) {
+            if (pairProducts[productIndex] == lastProductSeen) {
+                // Increment the count of same products
+                sameProductCount++;
+            } else {
+                // Calculate how many pairs had the previous product value
+                int pairsOfEqualProduct =
+                    (sameProductCount - 1) * sameProductCount / 2;
+
+                totalNumberOfTuples += 8 * pairsOfEqualProduct;
+
+                // Update lastProductSeen and reset sameProductCount
+                lastProductSeen = pairProducts[productIndex];
+                sameProductCount = 1;
+            }
+        }
+
+        // Handle the last group of products (since the loop ends without adding
+        // it)
+        int pairsOfEqualProduct = (sameProductCount - 1) * sameProductCount / 2;
+        totalNumberOfTuples += 8 * pairsOfEqualProduct;
+
+        return totalNumberOfTuples;
     }
 };
