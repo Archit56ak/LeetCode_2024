@@ -12,6 +12,7 @@
 |  |
 | ------- |
 | [1364-tuple-with-same-product](https://github.com/Archit56ak/LeetCode_2024/tree/master/1364-tuple-with-same-product) |
+| [2434-design-a-number-container-system](https://github.com/Archit56ak/LeetCode_2024/tree/master/2434-design-a-number-container-system) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Archit56ak/LeetCode_2024/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Archit56ak/LeetCode_2024/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Bit Manipulation
@@ -31,4 +32,16 @@
 |  |
 | ------- |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Archit56ak/LeetCode_2024/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+## Design
+|  |
+| ------- |
+| [2434-design-a-number-container-system](https://github.com/Archit56ak/LeetCode_2024/tree/master/2434-design-a-number-container-system) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2434-design-a-number-container-system](https://github.com/Archit56ak/LeetCode_2024/tree/master/2434-design-a-number-container-system) |
+## Ordered Set
+|  |
+| ------- |
+| [2434-design-a-number-container-system](https://github.com/Archit56ak/LeetCode_2024/tree/master/2434-design-a-number-container-system) |
 <!---LeetCode Topics End-->
