@@ -32,6 +32,7 @@
 |  |
 | ------- |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Archit56ak/LeetCode_2024/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3447-clear-digits](https://github.com/Archit56ak/LeetCode_2024/tree/master/3447-clear-digits) |
 ## Design
 |  |
 | ------- |
@@ -44,4 +45,12 @@
 |  |
 | ------- |
 | [2434-design-a-number-container-system](https://github.com/Archit56ak/LeetCode_2024/tree/master/2434-design-a-number-container-system) |
+## String
+|  |
+| ------- |
+| [3447-clear-digits](https://github.com/Archit56ak/LeetCode_2024/tree/master/3447-clear-digits) |
+## Stack
+|  |
+| ------- |
+| [3447-clear-digits](https://github.com/Archit56ak/LeetCode_2024/tree/master/3447-clear-digits) |
 <!---LeetCode Topics End-->
