@@ -3,19 +3,15 @@ public:
     int removeElement(vector<int>& nums, int val) 
     {
         int ans = 0;
-        vector<int> new_nums;
-        for(int i : nums)
+        for(int i=0;i<nums.size();i++)
         {
-            if(i!=val)
+            if(nums[i]!=val)
             {
+                nums[ans] = nums[i];
                 ans++;
-                new_nums.push_back(i);
             }
         }
-        for(int i = 0;i<new_nums.size();i++)
-        {
-            nums[i] = new_nums[i];
-        }
+
         return ans;
     }
 };
