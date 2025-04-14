@@ -8,6 +8,7 @@
 | [0027-remove-element](https://github.com/Archit56ak/LeetCode_2024/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/Archit56ak/LeetCode_2024/tree/master/0035-search-insert-position) |
 | [0066-plus-one](https://github.com/Archit56ak/LeetCode_2024/tree/master/0066-plus-one) |
+| [0088-merge-sorted-array](https://github.com/Archit56ak/LeetCode_2024/tree/master/0088-merge-sorted-array) |
 | [1364-tuple-with-same-product](https://github.com/Archit56ak/LeetCode_2024/tree/master/1364-tuple-with-same-product) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Archit56ak/LeetCode_2024/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Archit56ak/LeetCode_2024/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
@@ -65,6 +66,7 @@
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/Archit56ak/LeetCode_2024/tree/master/0027-remove-element) |
+| [0088-merge-sorted-array](https://github.com/Archit56ak/LeetCode_2024/tree/master/0088-merge-sorted-array) |
 ## Binary Search
 |  |
 | ------- |
@@ -73,4 +75,8 @@
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/Archit56ak/LeetCode_2024/tree/master/0066-plus-one) |
+## Sorting
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/Archit56ak/LeetCode_2024/tree/master/0088-merge-sorted-array) |
 <!---LeetCode Topics End-->
