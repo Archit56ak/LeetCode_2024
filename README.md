@@ -5,6 +5,7 @@
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Archit56ak/LeetCode_2024/tree/master/0011-container-with-most-water) |
 | [0027-remove-element](https://github.com/Archit56ak/LeetCode_2024/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/Archit56ak/LeetCode_2024/tree/master/0035-search-insert-position) |
 | [0066-plus-one](https://github.com/Archit56ak/LeetCode_2024/tree/master/0066-plus-one) |
@@ -28,6 +29,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Archit56ak/LeetCode_2024/tree/master/0011-container-with-most-water) |
 | [2509-minimize-xor](https://github.com/Archit56ak/LeetCode_2024/tree/master/2509-minimize-xor) |
 ## Counting
 |  |
@@ -65,6 +67,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Archit56ak/LeetCode_2024/tree/master/0011-container-with-most-water) |
 | [0027-remove-element](https://github.com/Archit56ak/LeetCode_2024/tree/master/0027-remove-element) |
 | [0088-merge-sorted-array](https://github.com/Archit56ak/LeetCode_2024/tree/master/0088-merge-sorted-array) |
 ## Binary Search
