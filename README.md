@@ -6,6 +6,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Archit56ak/LeetCode_2024/tree/master/0011-container-with-most-water) |
+| [0018-4sum](https://github.com/Archit56ak/LeetCode_2024/tree/master/0018-4sum) |
 | [0027-remove-element](https://github.com/Archit56ak/LeetCode_2024/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/Archit56ak/LeetCode_2024/tree/master/0035-search-insert-position) |
 | [0066-plus-one](https://github.com/Archit56ak/LeetCode_2024/tree/master/0066-plus-one) |
@@ -68,6 +69,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Archit56ak/LeetCode_2024/tree/master/0011-container-with-most-water) |
+| [0018-4sum](https://github.com/Archit56ak/LeetCode_2024/tree/master/0018-4sum) |
 | [0027-remove-element](https://github.com/Archit56ak/LeetCode_2024/tree/master/0027-remove-element) |
 | [0088-merge-sorted-array](https://github.com/Archit56ak/LeetCode_2024/tree/master/0088-merge-sorted-array) |
 ## Binary Search
@@ -81,5 +83,6 @@
 ## Sorting
 |  |
 | ------- |
+| [0018-4sum](https://github.com/Archit56ak/LeetCode_2024/tree/master/0018-4sum) |
 | [0088-merge-sorted-array](https://github.com/Archit56ak/LeetCode_2024/tree/master/0088-merge-sorted-array) |
 <!---LeetCode Topics End-->
