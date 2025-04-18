@@ -11,6 +11,7 @@
 | [0035-search-insert-position](https://github.com/Archit56ak/LeetCode_2024/tree/master/0035-search-insert-position) |
 | [0066-plus-one](https://github.com/Archit56ak/LeetCode_2024/tree/master/0066-plus-one) |
 | [0088-merge-sorted-array](https://github.com/Archit56ak/LeetCode_2024/tree/master/0088-merge-sorted-array) |
+| [0118-pascals-triangle](https://github.com/Archit56ak/LeetCode_2024/tree/master/0118-pascals-triangle) |
 | [1364-tuple-with-same-product](https://github.com/Archit56ak/LeetCode_2024/tree/master/1364-tuple-with-same-product) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Archit56ak/LeetCode_2024/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Archit56ak/LeetCode_2024/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
@@ -85,4 +86,8 @@
 | ------- |
 | [0018-4sum](https://github.com/Archit56ak/LeetCode_2024/tree/master/0018-4sum) |
 | [0088-merge-sorted-array](https://github.com/Archit56ak/LeetCode_2024/tree/master/0088-merge-sorted-array) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0118-pascals-triangle](https://github.com/Archit56ak/LeetCode_2024/tree/master/0118-pascals-triangle) |
 <!---LeetCode Topics End-->
